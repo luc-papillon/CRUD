@@ -1,0 +1,59 @@
+body{
+	background-color:lightblue;
+	
+}
+
+h1{
+	text-align:center;
+	color :red;
+}
+
+form{
+	
+	text-align:center;
+}
+
+ul{
+  list-style-type: none;
+  width:100%;
+}
+
+li { 
+	
+	list-style-type:none;
+	float: left;
+	width:25%;
+	font-weight:bold;
+	font-family:'trebuchet MS';
+	text-align:center;
+	font-size:2vw;
+	padding:2%;
+}
+
+li a {
+  color:#8395a7;
+}
+
+li a:hover {
+  color:white;
+}
+
+table{
+	background-color:grey;
+	color:white;
+	width:100%;
+	font-size:120%;
+	margin-top:5%;
+	padding-left:20;
+}
+
+.liste{
+	padding-left:2%;
+	background-color:grey;
+}
+
+.first-line{
+	color:blue;
+	font-size:130%;
+	font-weight:bold;
+}
