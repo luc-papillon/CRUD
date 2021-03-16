@@ -43,5 +43,6 @@ if (!isset($_SESSION['count'])) {
 		<li><a href="select.php">Selectionner</a></li>
 		<li><a href="modif.php">Modifier</a></li>
 		<li><a href="sup.php">Supprimer</a></li>
+		<li><a href="orga.php">Organisation</a></li>
 	</ul>
 

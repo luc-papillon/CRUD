@@ -25,19 +25,19 @@ include 'head.php';
 					$email = $_POST['email']??'';
 					$mdp = $_POST['mdp']??'';
 					$nouvmdp = $_POST['nouvmdp']??'';
-					$stat=connect()->exec("UPDATE user
-												SET password = '$nouvmdp'
-												WHERE email = '$email'
-												AND password = '$mdp'");
+					
 					
 					if($mdp<>$nouvmdp)
 					{
-						$stat;
+						$stat=connect()->exec("UPDATE user
+												SET password = '$nouvmdp'
+												WHERE email = '$email'
+												AND password = '$mdp'");
 						
 						echo "<h1>changement réussi</h1>";
 					}
 					else {
-						echo "<h1>Erreur</h1>";	
+					
 					}
 					
 		include 'footer.php'

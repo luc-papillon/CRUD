@@ -2,16 +2,16 @@
 
 include 'head.php';
 
-//selection
-    $statement=connect()->query("SELECT * FROM user");
-
 ?>
 
 
 <h1>Liste des User</h1>
 <div class="liste">
+
+
 <table id="organizationlist">
 <tr class="first-line">
+
     <td>id</td>
 	<td>nom</td>
 	<td>prenom</td>

@@ -6,7 +6,7 @@ include 'head.php';
 
 
 <form action="sup.php" method="POST">
-							<h2>supprimer</h2>
+							
 						<label for="nomdel"> email</label> </br>
 						<input type="text" name="email"/> </br>
 						
@@ -34,7 +34,7 @@ $result =connect()->exec("DELETE FROM user
 }
 else
 {
-	echo "<h1>Erreur</h1>";
+	
 }  
 
 		include 'footer.php'

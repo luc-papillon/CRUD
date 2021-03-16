@@ -22,7 +22,7 @@ li {
 	
 	list-style-type:none;
 	float: left;
-	width:25%;
+	width:20%;
 	font-weight:bold;
 	font-family:'trebuchet MS';
 	text-align:center;
@@ -56,4 +56,9 @@ table{
 	color:blue;
 	font-size:130%;
 	font-weight:bold;
+}
+
+a{
+color; red;
+	
 }
