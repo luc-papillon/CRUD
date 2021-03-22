@@ -36,7 +36,7 @@ if (!isset($_SESSION['count'])) {
 </head>
 
 <body>
-	<h1>CRUD User</h1>
+	<h1>CRUD </h1>
 	
 	<ul>
 		<li><a href="formulaire.php">Ajouter</a></li>

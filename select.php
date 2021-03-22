@@ -21,9 +21,11 @@ include 'head.php';
 </tr>
 
 <?php
+
+ $statement=connect()->query("SELECT * FROM user");
 foreach ($statement as $row) {
     
-    echo "<tr><td>" . /*"<input type=checkbox name='num'>" .*/ $row['id']??0 . "<br/></td></tr>";
+    echo "<tr><td>" . $row['id']??0 . "<br/></td></tr>";
     echo "<td>" . $row['firstname']??0 . "<br/></td>";
 	echo "<td>" . $row['lastname']??0 . "<br></td>";
 	echo "<td>" . $row['email']??0 . "<br></td>";
